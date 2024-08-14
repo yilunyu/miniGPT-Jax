@@ -37,7 +37,7 @@ Flax is the layering library built on top of Jax. Flax comes with a large set of
 ## Challenge Overview
 We will build a transformer model shown in the illustration below. Our goal is to build a model that predicts the next `token` given a sequence of `previous tokens`. Check [here](https://seantrott.substack.com/p/tokenization-in-large-language-models) if you would like a refresher on tokenization.
 
-![Diagram 1 - miniGPT bird's eye view (training time)](./pictures/image.png)
+![Diagram 1 - miniGPT bird's eye view (training time)](MiniGemini.drawio.png)
 
 ### Dataset and tokenization (already implemented for you)
 The dataset we will be working with is the [tiny Shakespeare dataset](https://www.tensorflow.org/datasets/catalog/tiny_shakespeare), which contains a corpus of Shakespeare's plays. The dataset contains 1.1M characters in total. The entire dataset is contained in a single string with 1.1M characters. We split the first 90% of the string into training split and the remaining into eval split. Check the `Load and tokenize dataset` section for more detail.
